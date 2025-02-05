@@ -20,7 +20,7 @@ class HomeController extends GetxController  implements GetxService {
   final List<ScreenModel> _screens = [
     ScreenModel(const HomeScreen(), 'Home', AllImages.home),
     ScreenModel(const MessageScreen(), 'Message', AllImages.home),
-    ScreenModel(const PostActivityScreen(), 'Post Activity', AllImages.home),
+    ScreenModel(const PostActivityScreen(), 'Post', AllImages.home),
     ScreenModel(const BookmarkScreen(), 'Bookmarks', AllImages.home),
     ScreenModel(const ProfileScreen(), 'Profile', AllImages.home),
   ];
